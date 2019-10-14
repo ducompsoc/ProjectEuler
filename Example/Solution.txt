@@ -1,4 +1,4 @@
-Solution: THE CORRECT Solution
+Do not put the actual answer!
 
 Some example explaining how it works.
 This can be done in markup, txt or LaTeX
