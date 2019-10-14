@@ -4,7 +4,7 @@ from math import sqrt, floor
 def pascals_triangle(n):
     topDown = [[1]]
 
-    # Loops to generate the remainingn (n - 1) rows 
+    # Loops to generate the remaining (n - 1) rows 
     for row_index in range(0, n - 1):
         above = topDown[row_index]
         row = [1]
