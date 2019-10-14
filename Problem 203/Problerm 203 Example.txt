@@ -1,0 +1,35 @@
+Problem 203 - Squarefree Binomial Coefficients
+
+Example n = 8: (the example on the problem page)
+1. Generate Pascal's Triangle:
+
+              [1] 
+            [1, 1]
+          [1, 2, 1]
+        [1, 3, 3, 1]
+      [1, 4, 6, 4, 1]
+    [1, 5, 10, 10, 5, 1]
+  [1, 6, 15, 20, 15, 6, 1]
+[1, 7, 21, 35, 35, 21, 7, 1]
+
+2. Flatten the triangle in to a single array
+[1, 1, 1, 1, 2, 1, 1, 3, 3, 1, 1, 4, 6, 4, 1, 1, 5,
+ 10, 10, 5, 1, 1, 6, 15, 20, 15, 6, 1, 1, 7, 21, 35,
+ 35, 21, 7, 1]
+
+3. Get all of the distinct numbers in the triangle
+{1, 2, 3, 4, 5, 6, 7, 35, 10, 15, 20, 21}
+
+4. Generate all of the primes up to the sqrt of sqrt of the maximum number
+Max number = 35
+Sqrt of sqrt ~= 2.43
+Primes = {2}
+
+5. Square all of the primes
+Squared primes = {4}
+
+6. Find all of the square-free coefficients by using the squared primes
+Square-free Coefficients = {1, 2, 3, 5, 6, 7, 35, 10, 15, 21}
+
+7. Sum the coefficients that remain
+Sum = 105
