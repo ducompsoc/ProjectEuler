@@ -1,0 +1,1 @@
+Initialise a counter to 0 and count up to 1000. Add a number to a counter if divisible by 3 or 5, otherwise, move on to the next number.
