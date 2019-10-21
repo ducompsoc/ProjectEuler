@@ -1,0 +1,1 @@
+use sieve of eratosthenes to mark numbers as prime in array A, then extract those that are prime into a second array, primes, and print the 10001th item in this
