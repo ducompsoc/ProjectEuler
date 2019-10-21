@@ -1,0 +1,1 @@
+Naively keep dividing n as many times as possiible, until n is as small as possible and cannot be divided anymore
