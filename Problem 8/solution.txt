@@ -1,0 +1,2 @@
+iterates up to the length of n, looking at each group of 13 adjacent digits and multiplying them; if this is larger than a previous product, store this
+
