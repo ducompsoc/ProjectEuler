@@ -7,10 +7,11 @@ def prob_of_win(discs, last_probability, blues_selected, n):
 
     #Taken n discs out
     if discs == n + 1:
-        #They have won
+        #They have won if over half are blue
         if blues_selected > n // 2:
             return last_probability
 
+        #Otherwise this branch was a loss
         return 0
 
     #Put another disc in
