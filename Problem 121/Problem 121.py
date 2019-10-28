@@ -3,7 +3,7 @@ from math import ceil
 
 def prob_of_win(discs, last_probability, blues_selected, n):
     #Chance of blue is 1 / discs
-    #Multiply by the last probabilty
+    #Multiply by the last probabilty as events are independent as we replace
 
     #Taken n discs out
     if discs == n + 1:
